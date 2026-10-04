@@ -13,6 +13,5 @@ PYTHONNOUSERSITE=1 /path/to/conda/envs/cign/bin/python -m pip install -r /path/t
 3. Run:
 
 ```bash
-PYTHONNOUSERSITE=1 /path/to/conda/envs/cign/bin/python \
-  /path/to/CIGN/trainb9_use.py
+PYTHONNOUSERSITE=1 /path/to/conda/envs/cign/bin/python /path/to/CIGN/trainb9_use.py
 ```
