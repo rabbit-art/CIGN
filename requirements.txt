@@ -1,0 +1,5 @@
+# Keep the existing working server CUDA/PyTorch/PyG/dgNN environment.
+# Build-time dependencies for retained CUDA extensions:
+ninja
+# Runtime: torch, torch-geometric, numpy, scipy, scikit-learn, dgNN.
+# Do not replace server packages with the former Windows version pins.
