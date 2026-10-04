@@ -241,4 +241,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    exec_python(ROOT / "local_train.py", sys.argv[1:])
